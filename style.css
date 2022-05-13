@@ -1,20 +1,31 @@
+/* UNIVERSAL */
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+/* HEADER */
 header {
-  background-color: aqua;
+  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 18px 14.5% 0;
 }
 
 .header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .navbar ul {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .navbar li {
@@ -23,4 +34,49 @@ header {
 
 .navbar a {
   text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* SECTION ONE */
+.sec_one {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 8% 14.5%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+
+.sec_one img {
+  max-width: 100%;
+  height: 250px;
+}
+
+.left-sec {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-sec h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.left-sec p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.left-sec button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: none;
+  width: 130px;
 }
