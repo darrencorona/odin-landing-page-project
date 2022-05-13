@@ -4,9 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: sans-serif;
 }
 
@@ -89,10 +86,39 @@ header {
 /************************* 
           SEC TWO
 *************************/
+.sec_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 14.5% 8%;
+  gap: 50px;
+}
+
 .sec_two h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+}
+
+.info {
+  display: flex;
+  gap: 50px;
+}
+
+.sub-info {
+  width: 170px;
+}
+
+.sub-info img {
+  max-width: 100%;
+  height: 170px;
+}
+
+.sub-info p {
+  font-size: 18px;
+  color: #4b5564;
+  text-align: center;
+  margin-top: 5px;
 }
 
 /************************* 
