@@ -1,4 +1,6 @@
-/* UNIVERSAL */
+/************************* 
+        UNIVERSAL
+*************************/
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,9 @@ body {
   font-family: sans-serif;
 }
 
-/* HEADER */
+/************************* 
+          HEADER
+*************************/
 header {
   background-color: #1f2937;
   display: flex;
@@ -38,14 +42,15 @@ header {
   font-size: 18px;
 }
 
-/* SECTION ONE */
+/************************* 
+          SEC ONE
+*************************/
 .sec_one {
   background-color: #1f2937;
   color: #f9faf8;
   padding: 8% 14.5%;
   display: flex;
   justify-content: space-between;
-  /* gap: 50px; */
 }
 
 .sec_one img {
@@ -80,3 +85,20 @@ header {
   border: none;
   width: 130px;
 }
+
+/************************* 
+          SEC TWO
+*************************/
+.sec_two h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+/************************* 
+        SEC THREE
+*************************/
+
+/************************* 
+          FOOTER
+*************************/
