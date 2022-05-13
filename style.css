@@ -124,6 +124,29 @@ header {
 /************************* 
         SEC THREE
 *************************/
+.sec_three {
+  background-color: #e5e7eb;
+  padding: 10% 23%;
+}
+
+.sec_three figure {
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sec_three p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.sec_three figcaption {
+  font-size: 25px;
+  font-weight: bold;
+  align-self: flex-end;
+}
 
 /************************* 
           FOOTER
