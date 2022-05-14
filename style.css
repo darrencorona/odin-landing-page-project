@@ -73,7 +73,7 @@ header {
 }
 
 .left-sec button {
-  background-color: #3882f6;
+  background-color: #3a82f6;
   color: #f9faf8;
   font-size: 18px;
   box-sizing: border-box;
@@ -146,6 +146,47 @@ header {
   font-size: 25px;
   font-weight: bold;
   align-self: flex-end;
+}
+
+/************************* 
+        SEC FOUR
+*************************/
+.sec_four {
+  padding: 7% 14.5%;
+}
+
+.container,
+.button {
+  background-color: #3a82f6;
+  color: white;
+}
+
+.container {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px;
+}
+
+.text h3 {
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+
+.text p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #3a82f6;
+  color: #f9faf8;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: 2px solid white;
 }
 
 /************************* 
